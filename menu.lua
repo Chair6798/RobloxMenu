@@ -1091,7 +1091,7 @@ delay(0.1,function()
 		--	return
 		--end
 		plr.CharacterAdded:Connect(function(char)
-			local new = script.BillboardGui:Clone()
+			local new = gui.BillboardGui:Clone()
 			new.Icon.Image=plr.UserId.."&width=420&height=420&format=png"
 			new.Adornee=char.HumanoidRootPart
 			local humanoid = char:FindFirstChildOfClass("Humanoid")
